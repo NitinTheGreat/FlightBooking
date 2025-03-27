@@ -278,12 +278,12 @@ const ProfilePage = () => {
                 ></motion.span>
               </span>
             </motion.h1>
-            <motion.p variants={heroTextVariants} className="text-xl text-purple-100 max-w-2xl mx-auto my-4">
+            <motion.p variants={heroTextVariants} className="text-xl text-purple-100 max-w-2xl mx-auto mb-3 my-12">
                 Discover your personalized dashboard, where you can manage your bookings, payments, and account settings with ease.
             </motion.p>
           </motion.div>
         </div>
-
+          
         {/* Wave divider */}
         <div className="absolute bottom-0 left-0 right-0">
           <motion.svg
